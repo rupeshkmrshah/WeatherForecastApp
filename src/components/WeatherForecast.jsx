@@ -52,7 +52,7 @@ function Weather() {
       event.preventDefault();
       setQuery('');
       setWeather({ ...weather, loading: true });
-      const url = 'http://api.openweathermap.org/data/2.5/weather';
+      const url = 'https://api.openweathermap.org/data/2.5/weather';
       const appid = '10a0acfbcb8a220681aa31642508029b';
       //console.log('Enter');
 
